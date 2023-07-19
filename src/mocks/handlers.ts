@@ -430,4 +430,53 @@ export const handlers = [
       })
     );
   }),
+
+  // 방 비교
+  rest.get('api/accommodation/compare/room', (req, res, ctx) => {
+    const searchParams = new URLSearchParams(req.url.search);
+    const roomId = searchParams.get('roomid');
+
+    const data = roomComparisonData.find((data) => data.id === Number(roomId));
+
+    if (!data) {
+      return res(
+        ctx.status(403),
+        ctx.json({
+          code: 'ROOM_NOT_FOUND',
+          status: 'BAD_REQUEST',
+          msg: '존재하지 않는 방입니다.',
+          data: null
+        })
+      );
+    }
+    const {
+      id,
+      accommodationName,
+      roomName,
+      picUrl,
+      address,
+      rate,
+      price,
+      convenience
+    } = data;
+
+    return res(
+      ctx.status(200),
+      ctx.json({
+        code: 'RESPONSE_SUCCESS',
+        status: 'OK',
+        msg: 'SUCCESS',
+        data: {
+          id,
+          accommodationName,
+          roomName,
+          picUrl,
+          address,
+          rate,
+          price,
+          convenience
+        }
+      })
+    );
+  })
 ];
