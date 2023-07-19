@@ -1,14 +1,14 @@
 export const reviewData = [
   {
     id: 20,
-    userId: 16,
+    nickName: 16,
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 19,
-    userId: 17,
+    nickName: 17,
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -16,7 +16,7 @@ export const reviewData = [
   },
   {
     id: 18,
-    userId: 18,
+    nickName: 18,
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -24,7 +24,7 @@ export const reviewData = [
   },
   {
     id: 17,
-    userId: 19,
+    nickName: 19,
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -32,7 +32,7 @@ export const reviewData = [
   },
   {
     id: 16,
-    userId: 20,
+    nickName: 20,
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -40,14 +40,14 @@ export const reviewData = [
   },
   {
     id: 15,
-    userId: 11,
+    nickName: 11,
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 14,
-    userId: 12,
+    nickName: 12,
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -55,7 +55,7 @@ export const reviewData = [
   },
   {
     id: 13,
-    userId: 13,
+    nickName: 13,
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -63,7 +63,7 @@ export const reviewData = [
   },
   {
     id: 12,
-    userId: 14,
+    nickName: 14,
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -71,7 +71,7 @@ export const reviewData = [
   },
   {
     id: 11,
-    userId: 15,
+    nickName: 15,
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -79,14 +79,14 @@ export const reviewData = [
   },
   {
     id: 10,
-    userId: 6,
+    nickName: 6,
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 9,
-    userId: 7,
+    nickName: 7,
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -94,7 +94,7 @@ export const reviewData = [
   },
   {
     id: 8,
-    userId: 8,
+    nickName: 8,
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -102,7 +102,7 @@ export const reviewData = [
   },
   {
     id: 7,
-    userId: 9,
+    nickName: 9,
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -110,7 +110,7 @@ export const reviewData = [
   },
   {
     id: 6,
-    userId: 10,
+    nickName: 10,
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -118,14 +118,14 @@ export const reviewData = [
   },
   {
     id: 5,
-    userId: 1,
+    nickName: 1,
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 4,
-    userId: 2,
+    nickName: 2,
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -133,7 +133,7 @@ export const reviewData = [
   },
   {
     id: 3,
-    userId: 3,
+    nickName: 3,
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -141,7 +141,7 @@ export const reviewData = [
   },
   {
     id: 2,
-    userId: 4,
+    nickName: 4,
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -149,7 +149,7 @@ export const reviewData = [
   },
   {
     id: 1,
-    userId: 5,
+    nickName: 5,
     sellerId: null,
     accommodationId: 1,
     rating: 3,
