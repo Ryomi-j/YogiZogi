@@ -22,19 +22,22 @@ export const ConfirmModal = ({
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(
-      `/payment?accommodation=${data.accommodationName}&checkindate=${data.checkInDate}&checkoutdate=${data.checkOutDate}&people=${data.people}&price=${data.price}`,
-      {
-        state: {
-          accommodationId: data.accommodationId,
-          roomId: data.roomId,
-          roomName: data.roomName,
-          roomImg: data.imgUrl,
-          address: data.address,
-          rate: data.rate
-        }
-      }
-    );
+    // navigate(
+    //   `/payment?accommodation=${data.accommodationName}&checkindate=${data.checkInDate}&checkoutdate=${data.checkOutDate}&people=${data.people}&price=${data.price}`,
+    //   {
+    //     state: {
+    //       accommodationId: data.accommodationId,
+    //       roomId: data.roomId,
+    //       roomName: data.roomName,
+    //       roomImg: data.imgUrl,
+    //       address: data.address,
+    //       rate: data.rate
+    //     }
+    //   }
+    // );
+
+    // msw 사용으로 추가된 코드
+    setModalState(false);
   };
 
   return (

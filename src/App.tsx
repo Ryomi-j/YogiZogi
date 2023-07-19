@@ -4,7 +4,7 @@ import Main from './views/Main';
 import Payment from './views/Payment';
 import ReservationConfirm from './views/ReservationConfirm';
 import SearchResult from './views/SearchResult';
-import SignIn from './views/SignIn';
+// import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import PageNotFound from './views/PageNotFound';
 import Layout from './components/common/Layout';
@@ -15,13 +15,14 @@ import useCustomInterceptor from './hooks/useCustomInterceptor';
 
 function App() {
   useCustomInterceptor();
+
   return (
     <HashRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Main />} />
           <Route element={<UnAuthRoute />}>
-            <Route path="/signIn" element={<SignIn />} />
+            {/* <Route path="/signIn" element={<SignIn />} /> */}
             <Route path="/signUp" element={<SignUp />} />
             <Route path="/auth/callback" element={<AuthCallback />} />
           </Route>

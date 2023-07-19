@@ -64,31 +64,59 @@ export const accommodationDetailData = new Array(30)
       picUrlList: [
         {
           id: 96,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/3d173bb76f62cb31cd17e193b0112e61.jpg'
         },
         {
           id: 72,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/360eab6c4f4c2d77d0097de51ed33124.jpg'
         },
         {
           id: 45,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/03f061e442f0a21f800e49fcb0b2854c.jpg'
         },
         {
           id: 129,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/e3d3278b22e7e0d2ccc69f24103191c5.jpg'
         },
         {
           id: 68,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/b2852f8e4dfe024ce2d2af155e429fee.jpg'
         },
         {
           id: 74,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/38281b65d7d69e921f9fa3625ebb5ef1.jpg'
         },
         {
           id: 12,
-          url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/e5b6363b27dac389d83b7ad9893acdd1.jpg'
+        },
+        {
+          id: 28,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/1129/5d9a0dd7ee91c26f3465228988986cc7.jpg'
+        },
+        {
+          id: 29,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182031/f548520417580511897f4c4daeec7cc8.jpg'
+        },
+        {
+          id: 30,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182031/f548520417580511897f4c4daeec7cc8.jpg'
+        },
+        {
+          id: 31,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182032/d6f92579232dfcbb1094915919c1112f.jpg'
+        },
+        {
+          id: 32,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182033/e626bed230367d518db6fa5c2cdd1ae6.jpg'
+        },
+        {
+          id: 33,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182034/3a2f056773cb59dcaf4a420a8e580dd3.jpg'
+        },
+        {
+          id: 34,
+          url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182035/85d35fe0371bb9d07fdcda8f406a786c.jpg'
         }
       ],
       rooms: [
@@ -102,15 +130,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 7,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/72748/479210/ab94afc451c0ce2b72d429d267e60525.jpg'
             },
             {
               id: 3,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/72748/479210/ab94afc451c0ce2b72d429d267e60525.jpg'
             },
             {
               id: 1,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/72748/479210/ab94afc451c0ce2b72d429d267e60525.jpg'
             }
           ],
           price: 280000
@@ -125,15 +153,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 11,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/1824/182031/f548520417580511897f4c4daeec7cc8.jpg'
             },
             {
               id: 15,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/1824/182031/f548520417580511897f4c4daeec7cc8.jpg'
             },
             {
               id: 10,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_1000X500x0/adimg_new/1824/182031/f548520417580511897f4c4daeec7cc8.jpg'
             }
           ],
           price: 280000
@@ -148,15 +176,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 22,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182032/d6f92579232dfcbb1094915919c1112f.jpg'
             },
             {
               id: 20,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182032/d6f92579232dfcbb1094915919c1112f.jpg'
             },
             {
               id: 24,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182032/d6f92579232dfcbb1094915919c1112f.jpg'
             }
           ],
           price: 280000
@@ -171,15 +199,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 31,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182034/3a2f056773cb59dcaf4a420a8e580dd3.jpg'
             },
             {
               id: 30,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182034/3a2f056773cb59dcaf4a420a8e580dd3.jpg'
             },
             {
               id: 35,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182034/3a2f056773cb59dcaf4a420a8e580dd3.jpg'
             }
           ],
           price: 280000
@@ -194,15 +222,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 48,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182035/85d35fe0371bb9d07fdcda8f406a786c.jpg'
             },
             {
               id: 47,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182035/85d35fe0371bb9d07fdcda8f406a786c.jpg'
             },
             {
               id: 44,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182035/85d35fe0371bb9d07fdcda8f406a786c.jpg'
             }
           ],
           price: 280000
@@ -217,15 +245,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 59,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182036/a2eeec430f89bbb6bd22657e1728e4a3.jpg'
             },
             {
               id: 60,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182036/a2eeec430f89bbb6bd22657e1728e4a3.jpg'
             },
             {
               id: 57,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182036/a2eeec430f89bbb6bd22657e1728e4a3.jpg'
             }
           ],
           price: 280000
@@ -240,15 +268,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 66,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182037/49d61aa26737c386fd0a33788f7eea49.jpg'
             },
             {
               id: 68,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182037/49d61aa26737c386fd0a33788f7eea49.jpg'
             },
             {
               id: 69,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182037/49d61aa26737c386fd0a33788f7eea49.jpg'
             }
           ],
           price: 350000
@@ -263,15 +291,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 73,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182038/77f001d0f66e0b529e714362aa53ccc4.jpg'
             },
             {
               id: 75,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182038/77f001d0f66e0b529e714362aa53ccc4.jpg'
             },
             {
               id: 74,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182038/77f001d0f66e0b529e714362aa53ccc4.jpg'
             }
           ],
           price: 350000
@@ -286,15 +314,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 83,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182039/4aeaf060109750137f5fa6bdeaad6c79.jpg'
             },
             {
               id: 87,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182039/4aeaf060109750137f5fa6bdeaad6c79.jpg'
             },
             {
               id: 85,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/182039/4aeaf060109750137f5fa6bdeaad6c79.jpg'
             }
           ],
           price: 490000
@@ -309,15 +337,15 @@ export const accommodationDetailData = new Array(30)
           pictureUrlList: [
             {
               id: 94,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/193379/80704fdbd87f7be340fce05fb2d41eb8.jpg'
             },
             {
               id: 95,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/193379/80704fdbd87f7be340fce05fb2d41eb8.jpg'
             },
             {
               id: 93,
-              url: '//image.goodchoice.kr/resize_370x220/adimg_new/49914/329560/874943ee5c604e46a4f529d8ecc1558d.jpg'
+              url: 'https://image.goodchoice.kr/resize_490x348/adimg_new/1824/193379/80704fdbd87f7be340fce05fb2d41eb8.jpg'
             }
           ],
           price: 400000
