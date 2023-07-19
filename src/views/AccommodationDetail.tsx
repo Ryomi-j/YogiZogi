@@ -84,7 +84,7 @@ const AccommodationDetail = () => {
                     })
                   }
                 >
-                  <figure>
+                  <figure className='h-full'>
                     <img
                       src={el.url}
                       alt={`${accommodationData.accommodationName}-image-${idx}`}

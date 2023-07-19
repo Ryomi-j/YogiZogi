@@ -142,7 +142,6 @@ export const DraggableAccommodationList = ({
                           >
                             <figure className="relative h-32 object-cover mx-1">
                               <div className="absolute top-[-10px] left-16 badge border border-gray-300 bg-white-500 font-bold">
-                                {' '}
                                 · · ·
                               </div>
                               <img
