@@ -118,7 +118,17 @@ describe('MSW Fetch Test: ', () => {
     const response = await axios.get(
       '/api/accommodation/compare/accommodation?accommodationid=1'
     );
-    const { data } = response.data
+    const { data } = response.data;
+    expect(data).to.be.an('object');
+    expect(data.id).toEqual(1);
+  });
+
+  // 객실 비교
+  it('room comparison', async () => {
+    const response = await axios.get(
+      '/api/accommodation/compare/room?roomid=1'
+    );
+    const { data } = response.data;
     expect(data).to.be.an('object');
     expect(data.id).toEqual(1);
   });
