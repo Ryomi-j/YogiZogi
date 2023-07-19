@@ -255,7 +255,7 @@ const SearchResult = () => {
     const { totalElements: newTotalElements, content } =
       await getDetailedSearchResult(params);
 
-    setAccommodationList((prev) => {
+      setAccommodationList((prev) => {
       checkDataEnd(prev.length, content.length, newTotalElements);
       return [...prev, ...content];
     });
