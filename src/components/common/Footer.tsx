@@ -10,29 +10,9 @@ const channels = [
     github: 'https://github.com/orgs/YOGIZOGI-Zerobase-2023/repositories'
   },
   {
-    name: '고영준',
-    blog: 'https://blog.naver.com/cloudedpanther',
-    github: 'https://github.com/cloudedpanther'
-  },
-  {
     name: '김은정',
     blog: 'https://premubo.tistory.com/',
     github: 'https://github.com/Ryomi-j'
-  },
-  {
-    name: '박성은',
-    blog: 'https://velog.io/@bbung',
-    github: 'https://github.com/bbung95'
-  },
-  {
-    name: '왕석현',
-    blog: 'https://velog.io/@wsh096',
-    github: 'https://github.com/wsh096'
-  },
-  {
-    name: '강민지',
-    blog: 'https://pumkinni.tistory.com/',
-    github: 'https://github.com/pumkinni'
   }
 ];
 
