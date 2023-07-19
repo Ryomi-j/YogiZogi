@@ -134,7 +134,8 @@ const Nav = () => {
               </div>
             ) : (
               <Link
-                to="/signIn"
+                to="/"
+                // to="/signIn"
                 className="btn bg-red-500 hover:bg-red-600 border-red-500 hover:border-red-600 text-white"
               >
                 로그인
