@@ -389,7 +389,7 @@ export const handlers = [
   }),
 
   // 숙소 비교
-  rest.get('api/accommodation/compare/accommodation', (req, res, ctx) => {
+  rest.get('/api/accommodation/compare/accommodation', (req, res, ctx) => {
     const searchParams = new URLSearchParams(req.url.search);
     const accommodationId = searchParams.get('accommodationid');
 
@@ -432,7 +432,7 @@ export const handlers = [
   }),
 
   // 방 비교
-  rest.get('api/accommodation/compare/room', (req, res, ctx) => {
+  rest.get('/api/accommodation/compare/room', (req, res, ctx) => {
     const searchParams = new URLSearchParams(req.url.search);
     const roomId = searchParams.get('roomid');
 
