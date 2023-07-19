@@ -1,4 +1,3 @@
-import LocalMapView from '../components/map/LocalMapView';
 import { useEffect, useState } from 'react';
 import { fetchData } from '../api';
 import {
@@ -136,15 +135,6 @@ const AccommodationDetail = () => {
           >
             <AccommodationInfo accommodationData={accommodationData} />
           </div>
-          {accommodationData && accommodationData.id !== 0 && (
-            <LocalMapView
-              address={accommodationData.address}
-              position={{
-                lat: accommodationData.lat,
-                lng: accommodationData.lon
-              }}
-            />
-          )}
         </div>
         <div className="divider my-0" />
         <div>
