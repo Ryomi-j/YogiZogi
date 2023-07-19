@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/YogiZogi/',
   test: {
     globals: true,
     setupFiles: ['./src/mocks/setupTests.ts'],

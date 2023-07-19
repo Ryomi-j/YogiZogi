@@ -1,5 +1,5 @@
 {
-  "homepage": "https://YOGIZOGI-Zerobase-2023.github.io/FE",
+  "homepage": "https://Ryomi-j.github.io/YogiZogi/",
   "name": "yogizogi",
   "description": "This is an accomodation reservation platform.",
   "version": "0.1.0",
@@ -75,6 +75,6 @@
     "vitest": "^0.31.4"
   },
   "msw": {
-    "workerDirectory": "public"
+    "workerDirectory": "./YogiZogi/dist"
   }
 }

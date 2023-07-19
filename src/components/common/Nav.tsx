@@ -73,7 +73,7 @@ const Nav = () => {
               className="cursor-pointer w-fit text-xl font-bold flex gap-2"
             >
               <img
-                src="/assets/logos/72.png"
+                src="./assets/logos/72.png"
                 alt="YogiZogi logo"
                 className="w-8"
               />
