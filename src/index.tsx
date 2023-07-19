@@ -9,7 +9,11 @@ import Modal from './components/common/Modal';
 import { QueryClient, QueryClientProvider } from 'react-query';
 
 if (process.env.NODE_ENV === 'development') {
-  worker.start();
+  worker.start({
+    serviceWorker: {
+      url: '/YogiZogi/mockServiceWorker.js'
+    }
+  });
 }
 
 const container = document.getElementById('root') as HTMLDivElement;
