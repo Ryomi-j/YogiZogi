@@ -18,7 +18,7 @@ interface IReview {
 
 export const Review = ({ id, accommodationData }: IReview) => {
   const [page, setPage] = useState(0);
-  const PageSize = 20;
+  const PageSize = 5;
 
   const rateAdj = [
     'Terrible',
@@ -38,7 +38,8 @@ export const Review = ({ id, accommodationData }: IReview) => {
     totalElements: 0,
     totalPages: 0
   });
-  const [reviewArr, setReviewArr] = useState<IReviewContent[]>([]);
+  // const [reviewArr, setReviewArr] = useState<IReviewContent[]>([]);
+  const [reviewArr, setReviewArr] = useState<IReviewContent[][]>([]);
 
   const getReview = async (page: number) => {
     fetchData
@@ -49,11 +50,22 @@ export const Review = ({ id, accommodationData }: IReview) => {
           totalElements: res.data.data.totalElements,
           totalPages: res.data.data.totalPages
         });
-        setReviewArr((prev) => {
-          const newReviewArr: IReviewContent[] = [...prev];
-          newReviewArr.push(res.data.data.content);
-          return newReviewArr;
-        });
+
+        // msw 사용으로 추가된 코드
+        const originalArray = [...res.data.data.content];
+        const slicedArr = [];
+
+        for (let i = 0; i < originalArray.length; i += PageSize) {
+          const item = originalArray.slice(i, i + PageSize);
+          slicedArr.push(item);
+        }
+        setReviewArr(slicedArr);
+
+        // setReviewArr((prev) => {
+        //   const newReviewArr: IReviewContent[] = [...prev];
+        //   newReviewArr.push(res.data.data.content);
+        //   return newReviewArr;
+        // });
       })
       .catch(() => []);
   };
@@ -76,7 +88,7 @@ export const Review = ({ id, accommodationData }: IReview) => {
             <div className="flex items-center text-xl md:text-3xl text-center">
               <div className="my-5 w-1/3 p-2">
                 <span className="font-semibold text-red-500">
-                  {accommodationData && (accommodationData.rate).toFixed(1)}
+                  {accommodationData && accommodationData.rate.toFixed(1)}
                 </span>{' '}
                 / 10 점
               </div>
