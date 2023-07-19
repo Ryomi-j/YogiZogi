@@ -90,4 +90,16 @@ describe('MSW Fetch Test: ', () => {
     expectTypeOf(data).toBeArray();
     expectTypeOf(data[1]).toBeObject();
   });
+
+  // 리뷰
+  it('review list', async () => {
+    const response = await axios.get(
+      '/api/accommodation/1/review?page=1&pagesize=3'
+    );
+    const { data } = response.data;
+
+    expect(data.content).to.be.an('array');
+    expect(data.content).length(20);
+    expect(data.totalPages).to.deep.equal(7);
+  });
 });
