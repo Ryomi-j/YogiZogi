@@ -112,4 +112,14 @@ describe('MSW Fetch Test: ', () => {
     expect(data.content).length(20);
     expect(data.totalPages).to.deep.equal(7);
   });
+
+  // 숙소 비교
+  it('accommodation comparison', async () => {
+    const response = await axios.get(
+      '/api/accommodation/compare/accommodation?accommodationid=1'
+    );
+    const { data } = response.data
+    expect(data).to.be.an('object');
+    expect(data.id).toEqual(1);
+  });
 });
