@@ -1,14 +1,14 @@
 export const reviewData = [
   {
     id: 20,
-    nickName: 16,
+    nickName: 'SunnyDay',
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 19,
-    nickName: 17,
+    nickName: 'StarGazer',
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -16,7 +16,7 @@ export const reviewData = [
   },
   {
     id: 18,
-    nickName: 18,
+    nickName: 'DreamChaser',
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -24,7 +24,7 @@ export const reviewData = [
   },
   {
     id: 17,
-    nickName: 19,
+    nickName: 'Moonlighter',
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -32,7 +32,7 @@ export const reviewData = [
   },
   {
     id: 16,
-    nickName: 20,
+    nickName: 'Wanderlust',
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -40,14 +40,14 @@ export const reviewData = [
   },
   {
     id: 15,
-    nickName: 11,
+    nickName: 'AdventureSeeker',
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 14,
-    nickName: 12,
+    nickName: 'NatureLover',
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -55,7 +55,7 @@ export const reviewData = [
   },
   {
     id: 13,
-    nickName: 13,
+    nickName: 'Bookworm',
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -63,7 +63,7 @@ export const reviewData = [
   },
   {
     id: 12,
-    nickName: 14,
+    nickName: 'MusicMaker',
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -71,7 +71,7 @@ export const reviewData = [
   },
   {
     id: 11,
-    nickName: 15,
+    nickName: 'CoffeeAddict',
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -79,14 +79,14 @@ export const reviewData = [
   },
   {
     id: 10,
-    nickName: 6,
+    nickName:'BeachBum',
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 9,
-    nickName: 7,
+    nickName:'MountainExplorer',
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -94,7 +94,7 @@ export const reviewData = [
   },
   {
     id: 8,
-    nickName: 8,
+    nickName:'ArtEnthusiast',
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -102,7 +102,7 @@ export const reviewData = [
   },
   {
     id: 7,
-    nickName: 9,
+    nickName:'Foodie',
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -110,7 +110,7 @@ export const reviewData = [
   },
   {
     id: 6,
-    nickName: 10,
+    nickName: 'FitnessFanatic',
     sellerId: null,
     accommodationId: 1,
     rating: 3,
@@ -118,14 +118,14 @@ export const reviewData = [
   },
   {
     id: 5,
-    nickName: 1,
+    nickName:'TechGuru',
     accommodationId: 1,
     rating: 10,
     description: '별점 준 이유'
   },
   {
     id: 4,
-    nickName: 2,
+    nickName:'PetLover',
     sellerId: null,
     accommodationId: 1,
     rating: 8,
@@ -133,7 +133,7 @@ export const reviewData = [
   },
   {
     id: 3,
-    nickName: 3,
+    nickName:'Fashionista',
     sellerId: null,
     accommodationId: 1,
     rating: 7,
@@ -141,7 +141,7 @@ export const reviewData = [
   },
   {
     id: 2,
-    nickName: 4,
+    nickName:'MovieBuff',
     sellerId: null,
     accommodationId: 1,
     rating: 9,
@@ -149,7 +149,7 @@ export const reviewData = [
   },
   {
     id: 1,
-    nickName: 5,
+    nickName:'GameMaster',
     sellerId: null,
     accommodationId: 1,
     rating: 3,
