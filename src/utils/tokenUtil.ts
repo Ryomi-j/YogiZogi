@@ -20,6 +20,6 @@ export const decoderToken = (token: string) => {
       isLoggedIn: true
     };
   } catch (error) {
-    console.error('유효하지 않은 토큰입니다.');
+    return
   }
 };
