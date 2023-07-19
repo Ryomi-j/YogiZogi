@@ -81,6 +81,16 @@ describe('MSW Fetch Test: ', () => {
   //   }
   // });
 
+  // 검색 결과
+  it('search result', async () => {
+    const {
+      data: { data }
+    } = await axios('/api/accommodation/search');
+
+    expectTypeOf(data).toBeArray();
+    expectTypeOf(data[1]).toBeObject();
+  });
+
   // 숙소 상세
   it('accommodation detail', async () => {
     const {
