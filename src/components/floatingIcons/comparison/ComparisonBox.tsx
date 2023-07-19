@@ -173,16 +173,15 @@ export const ComparisonBox = ({ display, source }: IComparisonBox) => {
           >[]
         )
           .then((results) => {
-            // mock data의 숙소명 변경을 위해 추가된 코드
             const fetchedData = [
               ...results.map((x) => x.map((y) => (y.data ? y.data.data : {})))
-            ]
-            fetchedData.map((items, idx) => items.map(el => el.accommodationName = data[idx].accommodationName))
-            setComparisonItems([...fetchedData])
-
-            // setComparisonItems([
-            //   ...results.map((x) => x.map((y) => (y.data ? y.data.data : {})))
-            // ]);
+            ];
+            fetchedData.map((items, idx) =>
+              items.map(
+                (el) => (el.accommodationName = data[idx].accommodationName)
+              )
+            );
+            setComparisonItems([...fetchedData]);
           })
           .then(() => {
             setComparisonModalState(true);

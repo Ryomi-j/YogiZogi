@@ -15,11 +15,7 @@ export const PriceComparisonChart = ({ data }: { data: IComparisonItem[] }) => {
     datasets: [
       {
         label: '3개월 가격추이',
-
-        // mock data 사용시, 가격 추이를 가시적으로 나타내기 위해 추가한 코드
         data: data.map((el, idx) => (el === undefined ? 0 : el.price - priceGap[idx])),
-
-        // data: data.map((el, idx) => (el === undefined ? 0 : el.price)),
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
         borderColor: 'rgba(255, 99, 132, 0.5)',
         borderWidth: 1
