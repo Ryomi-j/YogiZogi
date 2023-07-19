@@ -371,24 +371,19 @@ export const handlers = [
         code: 'RESPONSE_SUCCESS',
         status: 'OK',
         msg: 'SUCCESS',
-        data: [
-          {
-            msg: '성공적으로 작업을 수행 했습니다.'
-          },
-          {
-            id,
-            accommodationName,
-            category,
-            rate,
-            address,
-            region,
-            lat,
-            lon,
-            info,
-            picUrlList,
-            rooms
-          }
-        ]
+        data: {
+          id,
+          accommodationName,
+          category,
+          rate,
+          address,
+          region,
+          lat,
+          lon,
+          info,
+          picUrlList,
+          rooms
+        }
       })
     );
   })
