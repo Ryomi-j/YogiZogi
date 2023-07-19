@@ -194,7 +194,7 @@ export const handlers = [
         data: {
           msg: '성공적으로 작업을 수행 했습니다.',
           content: filteredData,
-          totalElements: filteredData.length
+          totalElements: filteredData.length,
         },
         pageable: {
           sort: {
@@ -386,5 +386,48 @@ export const handlers = [
         }
       })
     );
-  })
+  }),
+
+  // 숙소 비교
+  rest.get('api/accommodation/compare/accommodation', (req, res, ctx) => {
+    const searchParams = new URLSearchParams(req.url.search);
+    const accommodationId = searchParams.get('accommodationid');
+
+    const data = accommodationComparisonData.find(
+      (data) => data.id === Number(accommodationId)
+    );
+
+    if (!data) {
+      return res(
+        ctx.status(403),
+        ctx.json({
+          code: 'ACCOMMODATION_NOT_FOUND',
+          status: 'BAD_REQUEST',
+          msg: '존재하지 않는 숙소입니다.',
+          data: null
+        })
+      );
+    }
+
+    const { id, accommodationName, rate, address, convenience, picUrl, price } =
+      data;
+
+    return res(
+      ctx.status(200),
+      ctx.json({
+        code: 'RESPONSE_SUCCESS',
+        status: 'OK',
+        msg: 'SUCCESS',
+        data: {
+          id,
+          accommodationName,
+          rate,
+          address,
+          convenience,
+          picUrl,
+          price
+        }
+      })
+    );
+  }),
 ];
