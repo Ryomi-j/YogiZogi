@@ -1,75 +1,73 @@
 <p align='center'><img alt='logo' src='https://github.com/YOGIZOGI-Zerobase-2023/FE/assets/116236689/a508c41e-90d7-4cd5-868f-b760d519a916'></p>
-<h1 align='center'>숙박시설을 검색하고 예약할 수 있는 숙박 이커머스, <br /> <a href='https://yogizogi.vercel.app/' color='red'>YogiZogi</a>입니다.</h1>
+<h1 align='center'>원하는 숙소와 방을 비교할 수 있는 숙박 이커머스, <br /> <a href='https://ryomi-j.github.io/YogiZogi/' color='red'>YogiZogi</a></h1>
 
 ## ♦️ Contents
 - [Introduce](#introduce)
-- [Feature](#feature)
+- [My Role](#my-role)
 - [Tech Stacks](#tech-stacks)
-- [Crew Info](#crew-info)
+- [Team-Repo](#team-repo)
 - [Install & Run](#install--run)
 <br />
 
 ## 🎉Introduce
-여행할때 필요한건 숙소 예약! 숙소를 예약할 때 이곳 저곳 비교하며 많은 시간을 쓰고 있지는 않으신가요?😢   
-그럼 당신에게 필요한건, <strong>숙박 이커머스 요기조기!</strong> 
-
-<strong>카카오톡</strong>으로도 쉽게 가입해서 사용할 수 있어요😊  
-<strong>키워드</strong>로 검색해서 원하는 숙소들을 찾아보세요! 키워드만드으로도 원하는 숙소를 찾을 수 있어요!🫢  
-이렇게 많은 검색 결과를 어떻게 다 확인하냐구요?  
-요기조기는 숙박시설의 `유형/평점/가격/거리`로 원하는 숙소를 보다 쉽게 찾을 수 있도록 <strong>필터링 기능</strong>을 제공합니다😍  
-숙소의 위치가 중요하신가요? 요기조기는 그런 당신을 위해 검색된 숙소의 <strong>지도로 보기</strong> 기능도 함께 제공하고 있어요😎  
-해당 숙소의 정보가 궁금하신가요? 숙소 상세페이지에서 숙소의 정보와 이용가능한 객실, 사용자의 리뷰를 확인할 수있어요.  
-마음에 드는 숙소가 너무 많으신가요? 혹은 마음에 드는 객실이 너무 많으신가요? 그럼 <strong>비교함에 담기</strong> 버튼을 클릭!  
-2개 이상의 상품을 담으면 `3개월 가격 동향, 편의시설 등`을 한 눈에 비교할 수 있어요👍   
-이제 최종선택을 하셨나요? 그럼 `예약하기` 버튼 클릭!  
-예약 정보 확인 및 예약자명 입력 후 <strong>예약하기</strong> 버튼을 클릭해 예약을 마무리해보세요!  
-예약 확인 페이지에서 당신의 예약내역을 한 눈에 확인할 수 있어요!(예약내역 조회에 <strong>기간</strong>을 설정할 수 있어요)  
-이미 숙소를 이용하셨다구요? 그럼 <strong>별점과 함께 리뷰</strong>를 남겨보세요!😊  
+프로젝트 'YogiZogi'는 user가 원하는 숙소를 선택하고 비교할 수 있는 기능을 가진 <strong>숙박 이커머스</strong>입니다.    
+숙박 이커머스(agoda)를 사용할때, 원하는 숙소가 아닌 추천 알고리즘을 기반으로 추천된 숙소만 비교할 수 점이 항상 아쉽게 느껴졌습니다.    
+이번 팀 프로젝트를 기회로 평소 숙박 이커머스를 사용할 때 아쉽게 느껴졌던 부분을 보완하고자 해당 기능을 추가하여 프로젝트를 구현했습니다.        
+해당 프로젝트는 <strong><em>23년 5월 25일 부터 7월 6일</em></strong>까지 진행된 프로젝트이며, 3명의 프론트엔드 개발자와 2명의 백엔드 개발자가 협업한 프로젝트 입니다.    
+**현재 서버가 내려간 상태이므로, 위 링크를 통해 <strong>홈, 검색 결과, 숙소 상세 페이지</strong>만 사용할 수 있습니다.
+<br />
 <br />
 
-## ✨Feature
-<strong>1. 회원 가입 및 로그인 (KaKao-OAuth, 이메일 인증)</strong>
-  - 카카오톡 소셜 로그인 기능을 지원합니다.
+## ✨My Role
+- <strong>프로젝트 초기 빌드</strong> : 기획단계에서 논의한 내용을 바탕으로 초기 개발 환경을 빌드했습니다.
+- <strong>msw를 사용한 개발환경 구현</strong> : 서버가 구현 되기 전, 프론트에서 작업을 진행하기 위해 <strong>msw를 사용해 mock data 생성 및 server/browser test code</strong>를 작성했습니다.
+- <strong>Git 협업 환경 구현</strong> : 프론트 개발자간 협업을 위해 issue card templet 작성 및 issue card 사용 제안, Github project 생성 등 협업 환경을 빌드했습니다.
+- <strong>디자인 시안 구매</strong> : 보다 완성된 프로젝트 구현을 위해 프로젝트와 관련된 디자인 시안 구매 제안 및 Envato에서 시안 구매 후 개발을 진행했습니다.
+- <strong>Main page 구현</strong>
+- <strong>search bar 구현</strong> : 사용자의 현재 위치 받아오기/기간선택/인원 선택 기능을 지닙니다.
+- <strong>객실/숙소 비교하기 기능 구현</strong>
+   - <strong>비교함</strong>   
+      - Recoil과 localstorage를 사용해, user가 비교함에 담은 상품을 검색 결과 페이지와 숙소 상세 페이지에서 확인할 수 있게 구현했습니다.
+      - localstorage를 사용해, user가 현재 페이지에서 벗어날 때, 비교함의 데이터를 localstorage에 저장하고,
+        이동된 페이지에서 localstorage의 데이터를 받아오는 형태로 구현했습니다.
+      - 비교함에서는 담긴 상품의 CRUD 작업이 가능합니다.
+      - 비교함의 데이터는 따로 서버에 요청하지 않고 검색 결과 페이지에서 사용한 데이터를 사용합니다.
+      - 비교함의 `비교하기` 버튼을 눌렀을 때, 서버에 comparison 관련 데이터를 요청합니다. 
 
-<strong>2. 숙소 검색</strong>
-  - ElasticSearch를 사용하여 키워드 검색이 가능합니다.
-  - `지도로 보기`를 이용해 숙소의 위치를 확인할 수 있습니다
-  - 지도에서 `현 지도에서 검색` 기능을 이용해 지정한 위치의 숙박시설을 확인할 수 있습니다.
-    
-<strong>3. 검색 결과 필터링</strong>
-  - 숙소의 유형(호텔/모텔/펜션), 평점, 가격, 거리로 검색 결과를 필터링 할 수 있습니다.
-
-<strong>4. 숙소 및 객실 비교</strong>
-  - 비교하고 싶은 숙소나 방을 비교함에 담고 비교하기 버튼을 누르면 3개월 가격 동향, 편의시설 등을 한 눈에 비교할 수 있습니다.
-
-<strong>5. 숙소 예약</strong>
-  - 선택한 객실을 예약할 수 있습니다.
-
-<strong>6. 숙소 리뷰 작성 및 확인</strong>
-  - 예약 확인 페이지에서 예약한 숙소 내역을 확인할 수 있습니다.
-  - 예약 내역은 기간별로 필터링 할 수 있습니다.
-  - 숙소에 대한 리뷰와 함께 `서비스/가격/시설`에 대한 별점을 남길 수 있습니다.
-
-<strong>7. PWA</strong>
-  - 요기조기는 사용자 경험을 최적화하기위해 PWA 기능을 추가했습니다. 다운받아 이용할 수 있습니다.
+   - <strong>비교모달</strong>    
+      - Promise.all()을 사용해 모든 데이터를 받아왔을 때에만 user에게 데이터를 보여주도록 구현했습니다.
+      - user는 선택한 객실 또는 숙소의 가격 추이, 가격, 별점, 편의시설 등을 확인할 수 있습니다.
+      - 백엔드 개발자의 요청에 따라 7, 8, 9월의 해당 객실 또는 숙소의 가격추이를 차트로 보여줍니다.
+      - Drag & Drop을 사용해 기준이 되는 객실이나 숙소를 가장 왼쪽에 위치시킬 수 있습니다.
+- <strong>숙소 상세페이지</strong>
+    - 숙소 또는 객실의 이미지 클릭시, carousel이 나타나며 user는 더 많은 이미지를 확인할 수 있습니다.
+    - 숙소 정보
+        - 숙소의 정보는 아코디언 형태를 사용해 보다 편리하게 각각의 내용을 확인하게 구현했습니다.
+        - 크롤링한 source 코드인 `여기어때`의 generalization된 숙소정보 데이터 형태를 확인한 후 크롤링된 html 형태의 데이터를 적절히 가공해 코드를 작성했습니다.
 <br />
 
 ## 🔧Tech Stacks
-![yogizogi_tech_stack drawio (3)](https://github.com/YOGIZOGI-Zerobase-2023/FE/assets/116236689/8705ff4a-5526-4392-8eca-f172810ce776)
+
+<div align=center>
+  <img src='https://github.com/Ryomi-j/YogiZogi/assets/116236689/4d1cd37d-484a-4534-95f5-20da66aacc4b' height='30px'>
+  <img src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white">
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+  <img src="https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white">
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/githubpages-222222?style=for-the-badge&logo=githubpages&logoColor=white">
+</div>
 <br />
 
-## 👩‍👧‍👦Crew Info
+## 👩‍👧‍👦Team Repo
+<a href='https://github.com/YOGIZOGI-Zerobase-2023/FE' color='red'>YogiZogi Team Repository 바로가기</a>
+<br />
+<br />
 
-|고영준|김은정|박성은|왕석현|강민지|
-|:---:|:---:|:---:|:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/89354370/159485964-95cade06-01fa-4765-b0ea-5daae66db82b.png" alt="고영준" width=70px height=80px />|<img src="https://github.com/YOGIZOGI-Zerobase-2023/FE/assets/116236689/0b9696da-b45f-48ee-a442-6b317c7926d6" alt="김은정" width=60px height=70px />|<img src="https://user-images.githubusercontent.com/89354370/159486446-3e8bd873-bfaf-4c33-b211-08ac8eee9941.jpg" alt="박성은" width=82px height=92px />|<img src="https://user-images.githubusercontent.com/89354370/159485282-568e61d9-c0da-4f71-914f-5a586f23ba4e.jpg" alt="왕석현" width=80px height=80px />|<img src="https://user-images.githubusercontent.com/89354370/159486647-926d1dd2-5a52-4fc6-8944-3da6cb88748c.jpg" alt="강민지" width=80px height=80px />|
-|Front-End|Front-End|Front-End|Back-End|Back-End|
-|[Github](https://github.com/cloudedpanther)|[Github](https://github.com/Ryomi-j)|[Github](https://github.com/bbung95)|[Github](https://github.com/wsh096)|[Github](https://github.com/pumkinni)|
-|[Blog](https://blog.naver.com/cloudedpanther)|[Blog](https://premubo.tistory.com/)|[Blog](https://velog.io/@bbung)|[Blog](https://velog.io/@wsh096)|[Blog](https://pumkinni.tistory.com/)|
-<br/>
-
-
-## 🔨Install & Run
+# 🔨Install & Run
 
 ```bash
 git clone https://github.com/YOGIZOGI-Zerobase-2023/FE.git
