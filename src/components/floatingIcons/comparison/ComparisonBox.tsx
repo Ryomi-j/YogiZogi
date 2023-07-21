@@ -13,6 +13,7 @@ import { IComparisonBoxProps, IComparisonItem } from './types';
 import { fetchData } from '../../../api';
 import { AxiosResponse } from 'axios';
 import { getQueryStrData } from '../../../utils/handleQueryString';
+import { useSaveComparisonData } from '../../../hooks/useSaveComparisonData';
 
 interface IComparisonBox {
   display: boolean;
@@ -83,32 +84,7 @@ export const ComparisonBox = ({ display, source }: IComparisonBox) => {
   const { checkInDate, checkOutDate, people } = getQueryStrData();
 
   // 사용자가 현재 페이지를 떠나기 전에 비교함의 상품 데이터를 localstorage에 저장
-  const saveComparisonData = () => {
-    const handleBeforeUnload = () => {
-      const today = getDateFormat(new Date());
-      const lastTimeStamp = localStorage.getItem('lastTimeStamp');
-
-      if (lastTimeStamp && lastTimeStamp !== today) localStorage.clear();
-      else {
-        localStorage.setItem(
-          'lastTimeStamp',
-          JSON.stringify(getDateFormat(new Date()))
-        );
-        localStorage.setItem('selectedRoom', JSON.stringify(selectedRooms));
-        localStorage.setItem(
-          'selectedAccommodation',
-          JSON.stringify(selectedAcc)
-        );
-      }
-    };
-    window.addEventListener('beforeunload', handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-    };
-  };
-
-  saveComparisonData();
+  useSaveComparisonData();
 
   // 28일 간격 3개의 날짜 반환(차트에 쓰일 3개의 check in/out date를 반환)
   const getThreeDates = (day: string) => {
