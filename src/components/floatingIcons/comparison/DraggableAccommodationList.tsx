@@ -15,6 +15,7 @@ import {
   selectedAccommodation,
   selectedRoom
 } from '../../../store/atom/comparisonAtom';
+import { useSaveComparisonData } from '../../../hooks/useSaveComparisonData';
 
 /**
  * @param data IComparisonItem[][][]
@@ -38,7 +39,7 @@ export const DraggableAccommodationList = ({
     minPrice: 0,
     highRate: 0
   });
-
+  useSaveComparisonData();
   const navigate = useNavigate();
 
   useEffect(() => {
